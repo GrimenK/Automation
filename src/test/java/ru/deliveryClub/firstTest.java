@@ -16,10 +16,10 @@ public class firstTest {
     }
 
     @Test
-    public void firstTest(){
+    public void firstTestRev1(){
         driver.get("https://prom.ua/");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
